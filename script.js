@@ -24,5 +24,15 @@ function getPlayerChoice(){
     return output
 }
 
-console.log(getPlayerChoice())
+function round(computer, player){
+    let win = false
+    if ((computer == "paper" && player == "rock") || (computer == "rock" && player == "scissors") || (computer == "scissors" && player == "paper")){
+        win = false
+    } else {
+        win = true
+    }
+    return win
+}
+
 console.log(getComputerChoice())
+console.log(round(getComputerChoice(), getPlayerChoice()))
