@@ -1,8 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #2C5F2B
+}
+
+.title{
+    padding-top: 30px;
+    word-spacing: 30px;
+}
+
 .container{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 40px;
 }
 
 .scoreboard{
@@ -17,14 +32,40 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 2em;
 }
 
 .options{
     display: flex;
     justify-content: center;
     gap: 50px;
+    
+}
+
+.options button{
+    font-size: xx-large;
+    background-color: #97BC62;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.options button:hover{
+    background-color: royalblue;
 }
 
 .action{
     margin-top: 50px;
+    padding: 10px;
+    font-size: x-large;
+    background-color: #97BC62;
+    border: none;
+    border-radius: 5px;
+}
+
+.matchHistory{
+    width: 400px;
+    min-height: 100px;
+    background-color: #97BC62;
+    text-align: center;
 }

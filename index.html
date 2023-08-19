@@ -6,29 +6,32 @@
         <script src="script.js" defer></script>
         <link rel="stylesheet" href="styles.css">
         <title>Rock Paper Scissors</title>
+        <script src="https://kit.fontawesome.com/8f584789cc.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="container">
-            <h1>Rock Paper Scissors</h1>
+            <h1 class="title">Rock Paper Scissors</h1>
             <div class="scoreboard">
                 <div class="scorecard">
-                    <p>player</p>
+                    <i class="fa-solid fa-user-tie"></i>
                     <p>0</p>
                 </div>
                 <h1>VS</h1>
                 <div class="scorecard">
-                    <p>computer</p>
+                    <i class="fa-solid fa-desktop"></i>
                     <p>0</p>
                 </div>
             </div>
             <p class="messages"></p>
             <div class="options">
-                <button>Rock</button>
-                <button>Paper</button>
-                <button>Scissors</button>
+                <button><i class="fa-solid fa-hand-fist"></i></button>
+                <button><i class="fa-solid fa-hand"></i></button>
+                <button><i class="fa-solid fa-hand-scissors"></i></button>
             </div>
-            <button class="action">Next round</button>
-            <div class="matchHistory"></div>
+            <button class="action">Restart Game</button>
+            <div class="matchHistory">
+                <h3>Game History</h3>
+            </div>
         </div>
     </body>
 </html>
