@@ -14,23 +14,24 @@
             <div class="scoreboard">
                 <div class="scorecard">
                     <i class="fa-solid fa-user-tie"></i>
-                    <p>0</p>
+                    <p id="winCount">0</p>
                 </div>
                 <h1>VS</h1>
                 <div class="scorecard">
                     <i class="fa-solid fa-desktop"></i>
-                    <p>0</p>
+                    <p id="loseCount">0</p>
                 </div>
             </div>
-            <p class="messages"></p>
+            <p id="anouncer" class="messages">Click rock, paper or scissors to play a start the game, 1st to 5 wins the game</p>
             <div class="options">
-                <button><i class="fa-solid fa-hand-fist"></i></button>
-                <button><i class="fa-solid fa-hand"></i></button>
-                <button><i class="fa-solid fa-hand-scissors"></i></button>
+                <button id="rock"><i class="fa-solid fa-hand-fist"></i></button>
+                <button id="paper"><i class="fa-solid fa-hand"></i></button>
+                <button id="scissors"><i class="fa-solid fa-hand-scissors"></i></button>
             </div>
-            <button class="action">Restart Game</button>
-            <div class="matchHistory">
-                <h3>Game History</h3>
+            <p id="round" class="round">Round: 1</p>
+            <button id="reset" class="action">Restart Game</button>
+            <div id="history" class="matchHistory">
+                <h3>Match History</h3>
             </div>
         </div>
     </body>
